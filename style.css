@@ -1,3 +1,9 @@
+*{
+    text-decoration: none;
+
+}
+
+
 body{
     background-color: antiquewhite;
 
@@ -14,8 +20,8 @@ header {
 
 header .logo {
 
-    text-decoration: none;
-
+    font-family: Arial, Helvetica, sans-serif;
+    
 
 }
 .menu{
