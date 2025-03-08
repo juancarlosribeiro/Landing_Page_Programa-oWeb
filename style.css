@@ -37,7 +37,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 10px;
+    padding: 10px 0px;
 
 }
 
@@ -50,6 +50,7 @@ header .logo a{
     justify-content: flex-start;
     display: flex;
     font-size: 24px;
+    padding-left: 50px;
     }
 
 .menu{
@@ -59,9 +60,10 @@ header .logo a{
     gap: 20px;
     margin: 0;
     padding: 0;
-    font-size: 16pt;
+    font-size: 20px;
     align-items: center;
     font-family: 'Poppins',sans-serif;
+    padding-right: 50px;
 }
 
 .menu li a{
@@ -189,18 +191,24 @@ header .logo a{
 
 
 
-
+.container {
+    box-sizing: content-box;
+    justify-self: center;
+    width: 1000px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 
 #QuemJuan{
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 #QuemJoao{
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 #QuemGustavo{
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 @media (max-width: 1000px) {
@@ -210,17 +218,32 @@ header .logo a{
     }
 
     header {
-        /*background-color: black;*/
         display: flex;
         flex-direction: column;
     }
 
+    header .logo a{ 
+        padding-left: 0px;
+    }
+
+    .menu{
+        padding-right: 0px;
+    }
+    
     header h1 {
         font-size: larger;
     }
 
     header a {
         font-size: medium;
+    }
+
+    .container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
     
     .caixaselecao {
@@ -235,5 +258,17 @@ header .logo a{
         display: flex;
         /*flex-direction: column;*/
         flex-wrap: wrap;
+    }
+
+    #QuemJuan{
+        margin-top: 0px;
+    }
+    
+    #QuemJoao{
+        margin-top: 0px;
+    }
+    
+    #QuemGustavo{
+        margin-top: 0px;
     }
 }
