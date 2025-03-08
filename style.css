@@ -79,28 +79,97 @@ header .logo a{
 
 }
 
+
+
+
+
 .juan{
     border: 1px solid black;
-    width: 270px;
+    width: 280px;
     height: 250px;
     border-radius: 30px;
+    position: relative;
+
+}
+.juan img{
+    width: 280px;
+    height: 250px;
+    border-radius: 30px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.juan h2 {
+    position: absolute;
+    top: 170px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    padding: 5px 10px;
+    white-space: nowrap;
 }
 
 
 .joao{
     border: 1px solid black;
-    width: 270px;
+    width: 280px;
     height: 250px;
     border-radius: 30px;
+    position: relative;
+
 }
+ 
+.joao img{
+    width: 280px;
+    height: 250px;
+    border-radius: 30px;
+    object-fit: cover;
+    overflow: hidden;
+
+}
+
+.joao h2{
+    position: absolute;
+    top: 170px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    padding: 5px 10px;
+    white-space: nowrap;
+
+}
+
 
 
 .gustavo{
     border: 1px solid black;
-    width: 270px;
+    width: 280px;
     height: 250px;
     border-radius: 30px;
+    position: relative;
 }
+
+.gustavo img{
+    width: 280px;
+    height: 250px;
+    border-radius: 30px;
+    object-fit: cover;
+    overflow: hidden;
+}
+.gustavo h2{
+        position: absolute;
+        top: 170px;
+        left: 50%;
+        transform: translateX(-50%);
+        color: white;
+        padding: 5px 10px;
+        white-space: nowrap;
+}
+
+
+
+
+
 
 #QuemJuan{
     margin-top: 100px;
